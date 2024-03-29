@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="field-container">
+      <h1>Расчет доп расходов</h1>
+      <div class="field">
+        <input type="number" name="current" id="current" placeholder="Курс" />
+      </div>
+      <div class="field">
+        <input type="number" name="broker" id="broker" placeholder="Брокер" />
+      </div>
+      <div class="field">
+        <input
+          type="number"
+          name="terminal"
+          id="terminal"
+          placeholder="Терминал"
+        />
+      </div>
+      <div class="field">
+        <input
+          type="number"
+          name="transport"
+          id="transport"
+          placeholder="Транспорт"
+        />
+      </div>
+      <div class="field">
+        <input type="number" name="nds" id="nds" placeholder="Ндс" value="" />
+      </div>
+      <div class="field">
+        <input type="number" name="tax" id="tax" placeholder="Пошлина" />
+      </div>
+      <div class="field">
+        <input type="number" name="first" id="first" placeholder="Заказ №1" />
+      </div>
+      <div class="field">
+        <input type="number" name="second" id="second" placeholder="Заказ №2" />
+      </div>
+      <div class="field">
+        <input type="number" name="third" id="third" placeholder="Заказ №3" />
+      </div>
+      <div class="field">
+        <input type="number" name="fourth" id="fourth" placeholder="Заказ №4" />
+      </div>
+      <button type="button" id="calc-button">Рассчитать</button>
+    </div>
+    <script src="./taxes.js"></script>
+  </body>
+</html>
