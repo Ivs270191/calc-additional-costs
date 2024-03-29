@@ -46,14 +46,17 @@ const taxes = (current, broker, terminal, transport, nds, tax, first, second, th
     Логистика 1 : ${firstTransport}:
     Ндс 1 : ${firstNds};
     Пошлина 1 : ${firstTax};
+
     Брокер + терминал 2 :${secondBrokerTerminal};
     Логистика 2 : ${secondTransport};
     Ндс 2 : ${secondNds};
     Пошлина 2 : ${secondTax};
+
     Брокер + терминал 3 :${thirdBrokerTerminal};
     Логистика 3 : ${thirdTransport};
     Ндс 3 : ${thirdNds};
     Пошлина 3 : ${thirdTax};
+    
     Брокер + терминал 4 : ${fourthBrokerTerminal};
     Логистика 4 : ${fourthTransport};
     Ндс 4 : ${fourthNds};
